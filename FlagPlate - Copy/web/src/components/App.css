@@ -1,0 +1,109 @@
+#badge {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  opacity: 0.25;
+  top: 56.5%;
+  left: 35%;
+  height: auto;
+  width: 30%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.Main{
+  position: absolute;
+  justify-content: center;
+  flex: auto;
+  margin: auto;
+  height: 80vh;
+  width: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #363636;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.LineBreakOne {
+  position: relative;
+  width: 98%;
+  left: 1%;
+  top: -2%;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#submit{
+  position: relative;
+  justify-content: center;
+  font-weight: 750;
+}
+#Reason{
+  position: relative;
+  font-weight: 750;
+  left: -11%;
+  bottom: 90%;
+}
+
+#remove{
+  position: relative;
+  justify-content: center;
+  font-weight: 750;
+  left: 90%;
+  bottom: 90%;
+}
+#create{
+  position: relative;
+  justify-content: center;
+  left: 42%;
+  top: -3%;
+  height: 4vh;
+}
+h1{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  position: relative;
+  top: 1.5%;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.Accordion-Container {
+  position: relative;
+  top: -30%;
+  width: 98%;
+  left: 1%;
+  background-color: #363636;
+  font-size: 1em;
+}
+
+#Accordion{
+  background-color: #363636;
+  color: white;
+}
+
+#form-dialog-title{
+  position: relative;
+  background-color: #363636;
+  color: white;
+}
+#DialogMenu{
+  background-color: #363636;
+  color: white;
+}
+#VehiclePlate{
+  color: white;
+}
+#ReasonInput{
+  position: relative;
+  color: white;
+}
+#VehicleOwner{
+  color: white;
+}

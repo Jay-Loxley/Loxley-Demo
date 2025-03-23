@@ -1,0 +1,28 @@
+.container{
+    position: absolute;
+    justify-content: center;
+    flex: auto;
+    margin: auto;
+    min-height: 35vh;
+    height: auto;
+    min-width: 10vh;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #363636;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.slider-container{
+    position: relative;
+    top: 3vh;
+    height: 30vh;
+    margin-left: 0.75vh;
+    margin-right: 0.75vh;
+}
